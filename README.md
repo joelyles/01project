@@ -1,3 +1,9 @@
+_This project is based on the code challenge from Dave Gray's React course that is published on youtube. Link Below._
+
+[link to course video] (https://www.youtube.com/watch?v=RVFAyFWO4go)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
