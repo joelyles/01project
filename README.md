@@ -1,8 +1,8 @@
-\_This app will let you change the background color by typing the color name in the input.
+This app will let you change the background color by typing the color name in the input.
 
-This project is based on the code challenge from Dave Gray's React course that is published on youtube. Link Below.\_
+This project is based on the code challenge from Dave Gray's React course that is published on youtube. Link Below.
 
-[link to course video] (https://www.youtube.com/watch?v=RVFAyFWO4go)
+[link to course video](https://www.youtube.com/watch?v=RVFAyFWO4go)
 
 ---
 
