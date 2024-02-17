@@ -27,3 +27,8 @@ body {
   min-height: 500px;
   margin: 10px;
 }
+
+main {
+  height: calc(100% -2px);
+  border: 2px solid red;
+}

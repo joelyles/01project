@@ -1,9 +1,3 @@
-/* export default function Header() {
-    return (
-        <h1>Change the Background</h1>
-    )
-} */
-
 const Header = ({title}) => {
     const headerStyle = {
         backgroundColor: '#f5deb3',
