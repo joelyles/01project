@@ -1,27 +1,23 @@
+import InputColor from './InputColor';
+import BackgroundBox from './BackgroundBox';
 import Header from "./Header";
-import BackgroundBox from "./BackgroundBox";
-import InputColor from "./InputColor";
 import { useState } from "react";
 
 function App() {
-    const [colorValue, setColorValue] = useState('')
-    const [isDarkText, setIsDarkText] = useState(true)
+    const [colorValue, setColorValue] = useState('');
 
-  return (
-    <div className="App">
-      <Header title='change the color'/>
-      <BackgroundBox 
-        colorValue={colorValue}
-        isDarkText={isDarkText}
-      />
-      <InputColor 
-        colorValue={colorValue}
-        setColorValue={setColorValue}
-        isDarkText={isDarkText}
-        setIsDarkText={setIsDarkText}
-      />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header title='click to change color'/>
+            <BackgroundBox 
+                colorValue={colorValue}
+            />
+            <InputColor 
+                colorValue={colorValue}
+                setColorValue={setColorValue}
+            />
+        </div>
+    );
 }
 
 export default App;
