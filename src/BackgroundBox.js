@@ -1,15 +1,15 @@
 import InputColor from "./InputColor"
 
-const BackgroundBox = ({ colorValue, isDarkText }) => {
+const BackgroundBox = ({ colorValue, colorValueTwo, isDarkText }) => {
   return (
     <section 
         className="square"
         style={{ 
-            backgroundColor: colorValue, 
+            backgroundColor: `#${colorValueTwo}`, 
             color: isDarkText ? '#000' : "#fff"
         }} 
         >
-        <p>{colorValue ? colorValue : "empty value"}</p>
+        <p>{`#${colorValueTwo}` ? `#${colorValueTwo}` : "empty value"}</p>
     </section>
   )
 }
