@@ -71,3 +71,20 @@ button {
   font-size: 1rem;
   padding: 0.5rem;
 }
+
+.footer {
+  display: flex;
+  background-color: darkgray;
+  border-top: 2px solid black;
+  margin-top: 10px;
+}
+
+.list-container {
+  margin: 15px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.list {
+  list-style: none;
+}
